@@ -7,4 +7,4 @@ def run(prompt: str):
     return result
 
 
-run("Potrzebuję dobrego masażu tajskiego w okolicy Placu Jana Pawła we Wrocławiu za mniej niż 300 złotych")
+run("Chciałbym ostrzyc brodę za mniej niż 60 złotych w okolicach Popowickiej we Wrocławiu")

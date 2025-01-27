@@ -194,7 +194,9 @@ class GeoSpatialAgent:
             relevant_businesses, user_lat, user_lon
         )
 
-        return GeoSpatialAgent.format_businesses(relevant_businesses)
+        msg = GeoSpatialAgent.format_businesses(relevant_businesses)
+
+        return msg
 
     def _initialize_agent(
         self, agent_type: AgentType = AgentType.ZERO_SHOT_REACT_DESCRIPTION, verbose=False
